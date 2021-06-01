@@ -20,9 +20,9 @@ const instagram = 'agus_alnsyh71- kaelMk_';
 const aktif = 'Kapan bot aktif';
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:Agus\n' // Nama kamu
+            + 'FN:WRS\n' // Nama kamu
             + 'ORG:VVIPINDO;\n' // Nama bot
-            + 'TEL;type=CELL;type=VOICE;waid=6289613469459:+62 896-1346-9459\n' //Nomor whatsapp kamu
+            + 'TEL;type=CELL;type=VOICE;waid=6281212180465:+62 812-1218-0465\n' //Nomor whatsapp kamu
             + 'END:VCARD'
 const
 {
@@ -175,6 +175,78 @@ const truth =[
 'Tahun depan',
 'Bulan depan',
 'Sebentar lagi',
+'']
+const ttrth = truth[Math.floor(Math.random() * truth.length)]
+conn.sendMessage(id, 'Pertanyaan : *'+teks+'*\n\nJawaban : '+ ttrth, MessageType.text, { quoted: m })
+}
+if (text.includes('.FF.')){
+const teks = text.replace(/./, '')
+const truth =[
+'List dm FF.
+5💎: 880
+10💎: 1.750
+20💎: 2.800
+40💎: 5.650
+50💎: 6.750
+70💎: 9.300
+100💎: 13.500
+110💎: 15.300
+140💎: 18.500
+160💎: 21.358
+210💎: 27.850
+280💎: 37.400
+355💎: 46.400
+500💎: 65.800
+720💎: 92.750
+1000💎: 129.500
+1865💎: 239.500
+2000💎: 250.000
+2500💎: 317.000
+4000💎: 504.000
+MM 🎫: 28.000
+MB  🎫: 112.000'.
+'']
+const ttrth = truth[Math.floor(Math.random() * truth.length)]
+conn.sendMessage(id, 'Pertanyaan : *'+teks+'*\n\nJawaban : '+ ttrth, MessageType.text, { quoted: m })
+}
+if (text.includes('.ML.')){
+const teks = text.replace(/./, '')
+const truth =[
+'86💎: 18.207
+172💎: 36.125
+257💎: 54.910
+344💎: 72.250
+429💎: 91.035
+514💎: 109.820
+600💎: 128.027
+706💎: 144.500
+878💎: 180.635
+963💎: 199.410
+1050💎: 216.750
+1135💎: 235.535
+1220💎: 254.320
+1412💎: 289.000
+SL/TP: 121.380
+SL+ : 271.660'.
+'']
+const ttrth = truth[Math.floor(Math.random() * truth.length)]
+conn.sendMessage(id, 'Pertanyaan : *'+teks+'*\n\nJawaban : '+ ttrth, MessageType.text, { quoted: m })
+}
+if (text.includes('.apakah')){
+const teks = text.replace(/./, '')
+const truth =[
+'PAYMENT :
+Bank BCA :
+7295248165 /AN DWI OKY SANTOSA
+
+Dana, Ovo :
+Rofif nur fakhruddin
+081283639357
+
+Gopay, Shoppe pay, Link Aja:
+Dwi Oky Santosa
+081283639357
+Scan Qris'.
 '']
 const ttrth = truth[Math.floor(Math.random() * truth.length)]
 conn.sendMessage(id, 'Pertanyaan : *'+teks+'*\n\nJawaban : '+ ttrth, MessageType.text, { quoted: m })
